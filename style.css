@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #0b81b8;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu ul li {
+    list-style: none;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav .menu ul li a:hover {
+    color: #cce5ff;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px;
+    background: linear-gradient(to right, #0b81b8, #1c92d2);
+    color: white;
+}
+
+.firstSection .content {
+    max-width: 600px;
+}
+
+.firstSection h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.firstSection p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.firstSection .highlight {
+    color: #d81d9a;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #d81d9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons .btn:hover {
+    background-color: #b3167e;
+}
+
+.secondSection {
+    padding: 80px 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.secondSection h1, .secondSection h2 {
+    margin-bottom: 20px;
+}
+
+.work-experience {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.experience-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.experience-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.experience-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.experience-item p {
+    color: #666;
+}
+
+footer {
+    background-color: #0b81b8;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer-message {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-rights {
+    font-size: 0.9rem;
+    color: #cce5ff;
+}

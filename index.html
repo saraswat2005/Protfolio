@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shubham Saraswat Portfolio</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="content">
+                <h1>Hi, I'm <span class="highlight">Shubham</span></h1>
+                <p>and I am a passionate <span id="element"></span></p>
+                <div class="buttons">
+                    <a href="Untitled.pdf" class="btn">Download Resume </a>
+                    <a href="https://github.com/" class="btn">Visit GitHub </a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="image (3).jpg" alt="Profile Picture">
+            </div>
+        </section>
+
+        <section id="projects" class="secondSection">
+            <h2>What I've done so far</h2>
+            <h1>Work Experience</h1>
+            <div class="work-experience">
+                <div class="experience-item">
+                    <img src="image (4).jpg" alt="Project Image">
+                    <h3>Web Developer (2018-2024)</h3>
+                    <p>Front-end Developer for XYZ Company.</p>
+                </div>
+                <div class="experience-item">
+                    <img src="image (6).jpg" alt="Project Image">
+                    <h3>Back-end Developer (2020-2024)</h3>
+                    <p>Back-end Developer for ABC Organization.</p>
+                </div>
+                <div class="experience-item">
+                    <img src="image (7).jpg" alt="Project Image">
+                    <h3>Cybersecurity Analyst (2021-2023)</h3>
+                    <p>Research and analysis of cybersecurity threats.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-message">
+            <p>Shubham Saraswat Portfolio - A journey of passion and creativity.</p>
+            <p>Thank you for visiting!</p>
+        </div>
+        <div class="footer-rights">
+            &copy; 2024 ayushportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Graphic Designer', 'Freelancer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+</html>
